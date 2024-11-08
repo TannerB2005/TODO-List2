@@ -1,0 +1,10 @@
+<section id="tasks">
+  <header>
+    <h2>{{ userName() }} Tasks</h2>
+    <menu>
+      <a routerLink="tasks/new">Add Task</a> <!--relative links are relative to any active path, this mitages the amount of context needs for it to know the whole path-->
+    </menu>
+  </header>
+
+  <router-outlet />
+</section>
